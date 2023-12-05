@@ -1,0 +1,67 @@
+/*
+[2023 Truthboard components]
+[Truthboard codecolor]
+theme vscode created by HelloOSMe
+*/
+:root{
+    --code-background:#1e1e1e;
+    --code-default:#d4d4d4;
+    --code-item:#9cdcfe;
+    --code-define:#c586c0;
+    --code-string:#ce9178;
+    --code-keyword:#c586c0;
+    --code-var:#569cd6;
+    --code-char:#ffd700;
+    --code-comment:#6a9955;
+    --code-number:#b5cea8;
+    --code-special:#9cdcfe;
+}
+.code{
+    border:1px solid #777;
+    font-family: Menlo, Monaco, Consolas, "Lucida Console", "Ubuntu Mono","Microsoft YaHei UI","PingFang SC", "SimHei";
+    border-radius:5px;
+}
+pre,code{
+    font-family: Menlo, Monaco, Consolas, "Lucida Console", "Ubuntu Mono","Microsoft YaHei UI","PingFang SC", "SimHei";
+}
+.code pre{margin:0;}
+.code pre .hl-identifier,.code pre .hl-code{
+    color:var(--code-default);
+}
+.code pre .hl-reserved{
+    color:var(--code-item);
+}
+.code pre .hl-prepro{
+    color:var(--code-define);
+}
+.code pre .hl-string,.code pre .hl-quotes,.code pre .hl-var{
+    color:var(--code-string);
+}
+.code pre .hl-reserved{
+    color:var(--code-keyword);
+}
+.code pre .hl-types,.code pre .hl-inlinetags{
+    color:var(--code-var);
+}
+.code pre .hl-brackets{
+    color:var(--code-char);
+}
+.code pre .hl-comment,.code pre .hl-mlcomment{
+    color:var(--code-comment);
+}
+.code pre .hl-number{
+    color:var(--code-number);
+}
+.code pre .hl-special{
+    color:var(--code-special);
+    font-weight:normal;
+}
+tt{
+background:#77777777;
+border-radius:3px;
+color:#B94A48;
+padding:2px;
+margin-left:1px;
+margin-right:1px;
+font-family: Menlo, Monaco, Consolas, "Lucida Console", "Courier New", monospace;
+}

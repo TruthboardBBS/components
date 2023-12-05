@@ -1,0 +1,102 @@
+/*
+[2023 Truthboard components]
+Truthboard-special-code created by HelloOSMe
+*/
+.mobile-show{
+display:none;
+}
+@media screen and (max-width: 600px) {
+    .mobile-show{
+        display:block;
+    }
+    .desktop-show{
+        display:none;
+    }
+}
+/*黑幕*/
+.heimu{
+    color: transparent;
+    display:inline-block;
+    background:#aaa;
+    transition:all 100ms linear 0s;
+    padding:0px;
+    margin:0px;
+}
+.heimu:hover{
+    background: none;
+    color:#aaa;
+    transition:all 100ms linear 0s;
+}
+.heimu p{
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+}
+/*模糊文字*/
+.blur{
+    text-shadow: var(--text-color) 0 0 5px;
+    color:transparent;
+    display:inline-block;
+}
+/*模糊幕*/
+.hblur{
+    text-shadow: #aaa 0 0 5px;
+    color:transparent;
+    transition:all 100ms linear 0s;
+    display:inline-block;
+}
+.hblur:hover{
+    text-shadow:none;
+    color:#aaa;
+    transition:all 100ms linear 0s;
+}
+.hblur p{
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+}
+/*颜色*/
+.colorful{
+background:linear-gradient(to right, red 0% , orange 20% , yellow 40% , green 60%, blue 80%, purple 100%);
+-webkit-background-clip: text;
+color: transparent;
+display:inline-block;
+}
+/*错误框*/
+.errorbox{
+border: dashed var(--error-color) 1px;
+padding:1em;
+color:var(--error-color);
+}
+.errorbox p{
+padding:0px;
+margin:0px;
+}
+.buttonlink a{
+    border: var(--button-border)!important;
+    background: var(--button-background)!important;
+    color: #99a;
+    padding-left:7px;
+    padding-right:7px;
+    padding-bottom:1px;
+transition:none;
+cursor:default;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.buttonlink a:hover{
+color:#fff;
+text-decoration:none;
+border-color:#fff;
+transition:none;
+cursor:default;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+/*=======结束：特色代码=======*/
